@@ -18,3 +18,9 @@ article{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
+header{
+    text-align:center;
+}
+footer{
+    text-align:center;
+}

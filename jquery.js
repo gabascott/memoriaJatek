@@ -30,6 +30,7 @@ function kattint(){
     kattintTomb[kattintDb] = id;
     if (kattintDb === 2) {
 //        $("article img").attr("src", "kepek/hatter.jpg");
+        kattintDb = 0;
         if (kepek[kattintTomb[1]] === kepek[kattintTomb[2]]) {
             $("article img").eq(kattintTomb[1]).attr("src", "");
             $("article img").eq(kattintTomb[2]).attr("src", "");
